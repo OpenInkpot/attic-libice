@@ -1,3 +1,9 @@
+libice (2:1.0.4-2) asimov; urgency=low
+
+  * OI port
+
+ -- Yauhen Kharuzhy <jekhor@gmail.com>  Fri, 17 Oct 2008 22:23:25 +0000
+
 libice (2:1.0.4-1) unstable; urgency=low
 
   [ Julien Cristau ]
