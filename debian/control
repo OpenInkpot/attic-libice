@@ -1,15 +1,16 @@
 Source: libice
-Section: x11
+Section: gui
 Priority: optional
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: David Nusinow <dnusinow@debian.org>, Drew Parsons <dparsons@debian.org>, Julien Cristau <jcristau@debian.org>
+Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
 Build-Depends: debhelper (>= 5.0.0), quilt, pkg-config, x11proto-core-dev, xtrans-dev (>= 1.0.1-1)
+XCS-Cross-Build-Depends: x11proto-core-dev, xtrans-dev (>= 1.0.1-1)
+XCS-Cross-Host-Build-Depends: debhelper (>= 5.0.0), quilt, pkg-config
 Standards-Version: 3.7.2
 XS-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libice
 XS-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libice.git
 
 Package: libice6
-Section: libs
+Section: gui
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, x11-common
 Description: X11 Inter-Client Exchange library
